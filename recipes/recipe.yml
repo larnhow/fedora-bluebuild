@@ -31,6 +31,8 @@ modules:
         - helix
         - steam-devices
         - starship
+        - niri
+        - nautilus
     # remove:
     #   packages:
     #     # example: removing firefox (in favor of the flatpak)
