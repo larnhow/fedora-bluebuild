@@ -25,14 +25,23 @@ modules:
     repos:
       copr:
         - atim/starship
+        - ashbuk/Hyprland-Fedora
+      nonfree: negativo17
     install:
       packages:
+        - chezmoi
         - distrobox
         - helix
         - steam-devices
         - starship
-        - niri
+        # - niri
         - nautilus
+        - hyprland
+        - xdg-desktop-portal-hyprland
+        - kitty
+        - chromium
+        - flatpak
+        - steam
     # remove:
     #   packages:
     #     # example: removing firefox (in favor of the flatpak)
