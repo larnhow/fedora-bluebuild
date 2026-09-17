@@ -31,7 +31,7 @@ modules:
       packages:
         # - chezmoi
         - distrobox
-        - helix
+        # - helix
         - steam-devices
         # - starship
         # - niri
@@ -41,12 +41,12 @@ modules:
         # - kitty
         # - chromium
         # - flatpak
-        - steam
-    # remove:
-    #   packages:
+        # - steam
+      remove:
+        packages:
     #     # example: removing firefox (in favor of the flatpak)
     #     # "firefox" is the main package, "firefox-langpacks" is a dependency
-    #     - firefox
+         - toolbox
     #     - firefox-langpacks # also remove firefox dependency (not required for all packages, this is a special case)
 
   - type: default-flatpaks
