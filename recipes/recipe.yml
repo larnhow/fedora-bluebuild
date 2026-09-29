@@ -39,6 +39,7 @@ modules:
         - just
         # - helix
         - steam
+        - pipewire-codec-aptx
         # - steam-devices
         # copr
         - mise
