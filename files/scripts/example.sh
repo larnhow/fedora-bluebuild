@@ -9,6 +9,11 @@ set -oue pipefail
 echo 'This is an example shell script'
 echo 'Scripts here will run during build if specified in recipe.yml'
 
-dnf -y install fedora-workstation-repositories
-dnf config-manager setopt google-chrome.enabled=1
-dnf -y install google-chrome-stable
+# dnf -y install fedora-workstation-repositories
+# dnf config-manager setopt google-chrome.enabled=1
+# dnf -y install google-chrome-stable
+
+dnf -y swap ffmpeg-free ffmpeg --allowerasing
+dnf -y install mesa-va-drivers-freeworld
+dnf -y swap mesa-vulkan-drivers{,-freeworld}
+

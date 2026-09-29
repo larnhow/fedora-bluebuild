@@ -23,25 +23,27 @@ modules:
 
   - type: dnf
     repos:
-      # copr:
+      copr:
+        - jdxcode/mise
+        - faugus/faugus-launcher
         # - atim/starship
         # - ashbuk/Hyprland-Fedora
       nonfree: rpmfusion 
     install:
       packages:
-        # - chezmoi
+        - cascadia-mono-nf-fonts
+        - chezmoi
         - distrobox
+        - fish
+        - jq
+        - just
         # - helix
-        - steam-devices
-        # - starship
-        # - niri
-        # - nautilus
-        # - hyprland
-        # - xdg-desktop-portal-hyprland
-        # - kitty
-        # - chromium
-        # - flatpak
-        # - steam
+        - steam
+        # - steam-devices
+        # copr
+        - mise
+        - faugus-launcher
+        - google-chrome-stable
     remove:
       packages:
     #     # example: removing firefox (in favor of the flatpak)
