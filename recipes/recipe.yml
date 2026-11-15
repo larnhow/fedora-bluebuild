@@ -23,12 +23,18 @@ modules:
         destination: / # copies files/system/* (* means everything inside it) into your image's root folder /
 
   - type: dnf
+    repos:
+      files:
+        - https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo
+        - https://mise.jdx.dev/rpm/mise.repo
+      nonfree: rpmfusion
     install:
       packages:
         - cascadia-mono-nf-fonts
         - chezmoi
         - distrobox
         - fish
+        - libavcodec-freeworld
         # - keepassxc
         - steam-devices
         - mise
