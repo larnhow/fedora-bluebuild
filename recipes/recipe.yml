@@ -38,6 +38,9 @@ modules:
         - wl-clipboard
         - nautilus
         - fontconfig
+        - brave-browser
+        - gvfs-smb
+        - gdm
         # Grafik / Wayland
         - mesa-dri-drivers
         - mesa-libEGL
