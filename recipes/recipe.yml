@@ -111,8 +111,8 @@ modules:
       enabled:
         - getty@tty1.service
 
-type: script
-snippets:
-  - "dnf -y up" 
+  - type: script
+    snippets:
+      - "dnf -y up" 
 
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
