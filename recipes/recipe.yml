@@ -39,19 +39,19 @@ modules:
         - steam-devices
         - mise
         - niri
-        - firefox
+        # - firefox
         - git
-        - wl-clipboard
+        # - wl-clipboard
         - nautilus
         - ffmpegthumbnailer
         - papers
-        - fontconfig
+        # - fontconfig
         - brave-browser
         - gvfs-smb
         # Grafik / Wayland
-        - mesa-dri-drivers
-        - mesa-libEGL
-        - xorg-x11-server-Xwayland
+        # - mesa-dri-drivers
+        # - mesa-libEGL
+        # - xorg-x11-server-Xwayland
 
         # login manager
         # - gdm
@@ -60,31 +60,31 @@ modules:
         - tuigreet
 
         # Desktop-Sitzung und Berechtigungen
-        - dbus
-        - polkit
+        # - dbus
+        # - polkit
         - lxqt-policykit
         - xdg-user-dirs
-        - xdg-utils
+        # - xdg-utils
 
         # Audio
-        - pipewire
-        - pipewire-pulseaudio
-        - wireplumber
-        - pipewire-alsa
-        - alsa-ucm
-        - alsa-sof-firmware
+        # - pipewire
+        # - pipewire-pulseaudio
+        # - wireplumber
+        # - pipewire-alsa
+        # - alsa-ucm
+        # - alsa-sof-firmware
 
         # Netzwerk und Bluetooth
-        - NetworkManager
-        - NetworkManager-wifi
-        - bluez
+        # - NetworkManager
+        # - NetworkManager-wifi
+        # - bluez
         - bluez-tools
 
         # Hardware-Unterstuetzung (WLAN, GPU, Bluetooth, ...)
-        - linux-firmware
+        # - linux-firmware
 
         # Stromverwaltung
-        - upower
+        # - upower
         - tuned
         - tuned-ppd
         
