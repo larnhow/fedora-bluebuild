@@ -12,7 +12,7 @@ description: This is my personal OS image.
 # base-image: quay.io/fedora-ostree-desktops/kinoite
 # base-image: quay.io/fedora/fedora-bootc
 base-image: quay.io/fedora-ostree-desktops/base-atomic
-image-version: 44 # You can pin to a specific version of Fedora as well
+image-version: 45 # You can pin to a specific version of Fedora as well
 
 # module configuration, executed in order
 # you can include multiple instances of the same module
@@ -29,7 +29,7 @@ modules:
         - chezmoi
         - distrobox
         - fish
-        - keepassxc
+        # - keepassxc
         - steam-devices
         - mise
         - niri
@@ -37,6 +37,8 @@ modules:
         - git
         - wl-clipboard
         - nautilus
+        - ffmpegthumbnailer
+        - papers
         - fontconfig
         - brave-browser
         - gvfs-smb
@@ -46,10 +48,10 @@ modules:
         - xorg-x11-server-Xwayland
 
         # login manager
-        - gdm
-        # - greetd
-        # - greetd-selinux
-        # - tuigreet
+        # - gdm
+        - greetd
+        - greetd-selinux
+        - tuigreet
 
         # Desktop-Sitzung und Berechtigungen
         - dbus
@@ -96,9 +98,9 @@ modules:
         #   - org.mozilla.firefox
         #   - org.gnome.Loupe
       - scope: user # Also add Flathub user repo, but no user packages
-        # install:
-        #  - org.keepassxc.KeePassXC
-        #  - org.mozilla.thunderbird
+        install:
+         - org.keepassxc.KeePassXC
+         - org.mozilla.thunderbird
   #- type: script
   #  scripts:
   #     - example.sh
