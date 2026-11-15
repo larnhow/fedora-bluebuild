@@ -40,11 +40,15 @@ modules:
         - fontconfig
         - brave-browser
         - gvfs-smb
-        - gdm
         # Grafik / Wayland
         - mesa-dri-drivers
         - mesa-libEGL
         - xorg-x11-server-Xwayland
+
+        # login manager
+        - greetd
+        - greetd-selinux
+        - tuigreet
 
         # Desktop-Sitzung und Berechtigungen
         - dbus
