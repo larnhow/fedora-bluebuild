@@ -49,6 +49,7 @@ modules:
         # Desktop-Sitzung und Berechtigungen
         - dbus
         - polkit
+        - lxqt-policykit
         - xdg-user-dirs
         - xdg-utils
 
