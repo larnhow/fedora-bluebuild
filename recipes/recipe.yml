@@ -96,8 +96,8 @@ modules:
   - type: systemd
     system:
       disabled:
-        kmsconvt@tty1.service
+        - kmsconvt@tty1.service
       enabled:
-        getty@tty1.service
+        - getty@tty1.service
 
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
