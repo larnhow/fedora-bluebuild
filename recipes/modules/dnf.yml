@@ -60,7 +60,6 @@ modules:
         - polkit
         - lxqt-policykit
         - libnotify
-        - 
         - xdg-user-dirs
         - xdg-utils
 
