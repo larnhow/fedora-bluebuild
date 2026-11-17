@@ -15,7 +15,7 @@ modules:
         - https://mise.jdx.dev/gpg-key.pub
       nonfree: rpmfusion
     install:
-      install-weak-deps: false
+      install-weak-deps: true
       packages:
         - cascadia-mono-nf-fonts
         - chezmoi
