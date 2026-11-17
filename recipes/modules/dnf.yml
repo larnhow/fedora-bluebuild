@@ -48,7 +48,9 @@ modules:
         - fontconfig
         - brave-browser
         - gvfs-smb
-        - pam_oo7
+        # - pam_oo7
+        - gnome-keyring
+        - gnome-keyring-pam
 
         # login manager
         - greetd
