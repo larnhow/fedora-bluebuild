@@ -29,6 +29,8 @@ modules:
         - alacritty
         - fuzzel
         - mako
+        - waybar
+        - noctalia
         - xdg-desktop-portal-gtk
         - xdg-desktop-portal-gnome
         - gnome-control-center
