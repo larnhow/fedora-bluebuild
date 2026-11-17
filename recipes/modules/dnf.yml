@@ -15,22 +15,27 @@ modules:
         - https://mise.jdx.dev/gpg-key.pub
       nonfree: rpmfusion
     install:
-      install-weak-deps: true
+      install-weak-deps: false
       packages:
         - cascadia-mono-nf-fonts
         - chezmoi
         - distrobox
         - fish
         - libavcodec-freeworld
-        # - keepassxc
+        - keepassxc
         - steam-devices
         - mise
         - niri
+        - xwayland-satellite
+        - swayidle
+        - swaylock
         - alacritty
         - fuzzel
         - mako
         - waybar
         - noctalia
+        - flatpak
+        - xdg-desktop-portal
         - xdg-desktop-portal-gtk
         - xdg-desktop-portal-gnome
         - gnome-control-center
@@ -54,6 +59,8 @@ modules:
         - dbus
         - polkit
         - lxqt-policykit
+        - libnotify
+        - 
         - xdg-user-dirs
         - xdg-utils
 
@@ -79,6 +86,6 @@ modules:
         - tuned
         - tuned-ppd
         
-    remove:
-      packages:
-        - toolbox
+    # remove:
+      # packages:
+        # - toolbox
