@@ -45,9 +45,15 @@ modules:
         - steam-devices
         - mise
         - niri
+        - alacritty
+        - fuzzel
+        - mako
+        - xdg-desktop-portal-gtk
+        - xdg-desktop-portal-gnome
+        - gnome-control-center
         # - firefox
         - git
-        # - wl-clipboard
+        - wl-clipboard
         - nautilus
         - ffmpegthumbnailer
         - papers
