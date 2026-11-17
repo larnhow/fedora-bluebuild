@@ -1,0 +1,82 @@
+---
+modules:
+  - type: files
+    files:
+      - source: system
+        destination: / # copies files/system/* (* means everything inside it) into your image's root folder /
+
+  - type: dnf
+    repos:
+      files:
+        - https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo
+        - https://mise.jdx.dev/rpm/mise.repo
+      keys:
+        - https://brave-browser-rpm-release.s3.brave.com/brave-core.asc
+        - https://mise.jdx.dev/gpg-key.pub
+      nonfree: rpmfusion
+    install:
+      install-weak-deps: false
+      packages:
+        - cascadia-mono-nf-fonts
+        - chezmoi
+        - distrobox
+        - fish
+        - libavcodec-freeworld
+        # - keepassxc
+        - steam-devices
+        - mise
+        - niri
+        - alacritty
+        - fuzzel
+        - mako
+        - xdg-desktop-portal-gtk
+        - xdg-desktop-portal-gnome
+        - gnome-control-center
+        # - firefox
+        - git
+        - wl-clipboard
+        - nautilus
+        - ffmpegthumbnailer
+        - papers
+        - fontconfig
+        - brave-browser
+        - gvfs-smb
+        - pam_oo7
+
+        # login manager
+        - greetd
+        # - greetd-selinux
+        - tuigreet
+
+        # Desktop-Sitzung und Berechtigungen
+        - dbus
+        - polkit
+        - lxqt-policykit
+        - xdg-user-dirs
+        - xdg-utils
+
+        # Audio
+        - pipewire
+        - pipewire-pulseaudio
+        - wireplumber
+        - pipewire-alsa
+        - alsa-ucm
+        - alsa-sof-firmware
+
+        # Netzwerk und Bluetooth
+        - NetworkManager
+        - NetworkManager-wifi
+        - bluez
+        - bluez-tools
+
+        # Hardware-Unterstuetzung (WLAN, GPU, Bluetooth, ...)
+        - linux-firmware
+
+        # Stromverwaltung
+        - upower
+        - tuned
+        - tuned-ppd
+        
+    remove:
+      packages:
+        - toolbox
