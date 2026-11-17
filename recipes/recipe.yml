@@ -34,9 +34,9 @@ modules:
         #   - org.mozilla.firefox
         #   - org.gnome.Loupe
       - scope: user # Also add Flathub user repo, but no user packages
-        install:
-         - org.keepassxc.KeePassXC
-         - org.mozilla.thunderbird
+        # install:
+         # - org.keepassxc.KeePassXC
+         # - org.mozilla.thunderbird
   #- type: script
   #  scripts:
   #     - example.sh
