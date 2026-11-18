@@ -1,0 +1,14 @@
+---
+modules:
+  - type: systemd
+    system:
+      disabled:
+        - kmsconvt@tty1.service
+      enabled:
+        - getty@tty1.service
+        - greetd.service
+        - podman.socket
+    user:
+      enabled:
+        - podman.socket
+
