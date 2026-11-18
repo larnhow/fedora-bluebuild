@@ -15,77 +15,77 @@ modules:
         - https://mise.jdx.dev/gpg-key.pub
       nonfree: rpmfusion
     install:
-      install-weak-deps: false
+      install-weak-deps: true
       packages:
         - cascadia-mono-nf-fonts
         - chezmoi
         - distrobox
         - fish
         - libavcodec-freeworld
-        - keepassxc
+        # - keepassxc
         - steam-devices
         - mise
-        - niri
-        - xwayland-satellite
-        - swayidle
-        - swaylock
-        - alacritty
-        - fuzzel
-        - mako
-        - waybar
-        - noctalia
-        - flatpak
-        - xdg-desktop-portal
-        - xdg-desktop-portal-gtk
-        - xdg-desktop-portal-gnome
-        - gnome-control-center
+        # - niri
+        # - xwayland-satellite
+        # - swayidle
+        # - swaylock
+        # - alacritty
+        # - fuzzel
+        # - mako
+        # - waybar
+        # - noctalia
+        # - flatpak
+        # - xdg-desktop-portal
+        # - xdg-desktop-portal-gtk
+        # - xdg-desktop-portal-gnome
+        # - gnome-control-center
         # - firefox
-        - git
-        - wl-clipboard
-        - nautilus
-        - ffmpegthumbnailer
-        - papers
-        - fontconfig
-        - brave-browser
-        - gvfs-smb
+        # - git
+        # - wl-clipboard
+        # - nautilus
+        # - ffmpegthumbnailer
+        # - papers
+        # - fontconfig
+        # - brave-browser
+        # - gvfs-smb
         # - pam_oo7
-        - gnome-keyring
-        - gnome-keyring-pam
+        # - gnome-keyring
+        # - gnome-keyring-pam
 
         # login manager
-        - greetd
+        # - greetd
         # - greetd-selinux
-        - tuigreet
+        # - tuigreet
 
         # Desktop-Sitzung und Berechtigungen
-        - dbus
-        - polkit
-        - lxqt-policykit
-        - libnotify
-        - xdg-user-dirs
-        - xdg-utils
+        # - dbus
+        # - polkit
+        # - lxqt-policykit
+        # - libnotify
+        # - xdg-user-dirs
+        # - xdg-utils
 
         # Audio
-        - pipewire
-        - pipewire-pulseaudio
-        - wireplumber
-        - pipewire-alsa
-        - alsa-ucm
-        - alsa-sof-firmware
+        # - pipewire
+        # - pipewire-pulseaudio
+        # - wireplumber
+        # - pipewire-alsa
+        # - alsa-ucm
+        # - alsa-sof-firmware
 
         # Netzwerk und Bluetooth
-        - NetworkManager
-        - NetworkManager-wifi
-        - bluez
-        - bluez-tools
+        # - NetworkManager
+        # - NetworkManager-wifi
+        # - bluez
+        # - bluez-tools
 
         # Hardware-Unterstuetzung (WLAN, GPU, Bluetooth, ...)
-        - linux-firmware
+        # - linux-firmware
 
         # Stromverwaltung
-        - upower
-        - tuned
-        - tuned-ppd
+        # - upower
+        # - tuned
+        # - tuned-ppd
         
     # remove:
       # packages:
