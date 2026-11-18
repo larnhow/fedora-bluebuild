@@ -12,6 +12,7 @@ modules:
         - https://mise.jdx.dev/rpm/mise.repo
       keys:
         - https://brave-browser-rpm-release.s3.brave.com/brave-core.asc
+        - https://dl.google.com/linux/linux_signing_key.pub
         - https://mise.jdx.dev/gpg-key.pub
       nonfree: rpmfusion
     install:
@@ -46,6 +47,7 @@ modules:
         # - ffmpegthumbnailer
         # - papers
         # - fontconfig
+        - google-chrome-stable
         - brave-browser
         # - gvfs-smb
         # - pam_oo7
