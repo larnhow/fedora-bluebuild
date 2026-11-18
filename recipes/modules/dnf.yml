@@ -46,7 +46,7 @@ modules:
         # - ffmpegthumbnailer
         # - papers
         # - fontconfig
-        # - brave-browser
+        - brave-browser
         # - gvfs-smb
         # - pam_oo7
         # - gnome-keyring
