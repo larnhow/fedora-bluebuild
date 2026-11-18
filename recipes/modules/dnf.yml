@@ -25,7 +25,7 @@ modules:
         # - keepassxc
         - steam-devices
         - mise
-        # - niri
+        - niri
         # - xwayland-satellite
         # - swayidle
         # - swaylock
@@ -34,7 +34,7 @@ modules:
         # - mako
         # - waybar
         # - noctalia
-        # - flatpak
+        - flatpak
         # - xdg-desktop-portal
         # - xdg-desktop-portal-gtk
         # - xdg-desktop-portal-gnome
@@ -53,16 +53,16 @@ modules:
         # - gnome-keyring-pam
 
         # login manager
-        # - greetd
-        # - greetd-selinux
-        # - tuigreet
+        - greetd
+        - greetd-selinux
+        - tuigreet
 
         # Desktop-Sitzung und Berechtigungen
         # - dbus
         # - polkit
-        # - lxqt-policykit
+        - lxqt-policykit
         # - libnotify
-        # - xdg-user-dirs
+        - xdg-user-dirs
         # - xdg-utils
 
         # Audio
