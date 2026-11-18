@@ -2,7 +2,7 @@
 modules:
   - type: systemd
     system:
-      disabled:
+      # disabled:
         # - kmsconvt@tty1.service
       enabled:
         # - getty@tty1.service
