@@ -7,26 +7,26 @@ modules:
 
   - type: dnf
     repos:
-      files:
-        - https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo
-        - https://mise.jdx.dev/rpm/mise.repo
-      keys:
-        - https://brave-browser-rpm-release.s3.brave.com/brave-core.asc
-        - https://dl.google.com/linux/linux_signing_key.pub
-        - https://mise.jdx.dev/gpg-key.pub
+      # files:
+      #   - https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo
+      #   - https://mise.jdx.dev/rpm/mise.repo
+      # keys:
+      #   - https://brave-browser-rpm-release.s3.brave.com/brave-core.asc
+      #   - https://dl.google.com/linux/linux_signing_key.pub
+      #   - https://mise.jdx.dev/gpg-key.pub
       nonfree: rpmfusion
     install:
       install-weak-deps: true
       packages:
         - cascadia-mono-nf-fonts
-        - chezmoi
-        - distrobox
-        - fish
+        # - chezmoi
+        # - distrobox
+        # - fish
         - libavcodec-freeworld
         # - keepassxc
         - steam-devices
-        - mise
-        - niri
+        # - mise
+        # - niri
         # - xwayland-satellite
         # - swayidle
         # - swaylock
@@ -35,7 +35,7 @@ modules:
         # - mako
         # - waybar
         # - noctalia
-        - flatpak
+        # - flatpak
         # - xdg-desktop-portal
         # - xdg-desktop-portal-gtk
         # - xdg-desktop-portal-gnome
@@ -47,24 +47,24 @@ modules:
         # - ffmpegthumbnailer
         # - papers
         # - fontconfig
-        - google-chrome-stable
-        - brave-browser
+        # - google-chrome-stable
+        # - brave-browser
         # - gvfs-smb
         # - pam_oo7
         # - gnome-keyring
         # - gnome-keyring-pam
 
         # login manager
-        - greetd
-        - greetd-selinux
-        - tuigreet
+        # - greetd
+        # - greetd-selinux
+        # - tuigreet
 
         # Desktop-Sitzung und Berechtigungen
         # - dbus
         # - polkit
-        - lxqt-policykit
+        # - lxqt-policykit
         # - libnotify
-        - xdg-user-dirs
+        # - xdg-user-dirs
         # - xdg-utils
 
         # Audio
