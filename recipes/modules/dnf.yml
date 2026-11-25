@@ -25,6 +25,8 @@ modules:
         - libavcodec-freeworld
         # - keepassxc
         - steam-devices
+        - nix
+        - nix-daemon
         # - mise
         # - niri
         # - xwayland-satellite

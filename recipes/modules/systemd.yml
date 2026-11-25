@@ -2,11 +2,12 @@
 modules:
   - type: systemd
     system:
-      disabled:
-        - kmsconvt@tty1.service
+      # disabled:
+        # - kmsconvt@tty1.service
       enabled:
-        - getty@tty1.service
-        - greetd.service
+        # - getty@tty1.service
+        # - greetd.service
+        - nix-daemon
         - podman.socket
     user:
       enabled:
