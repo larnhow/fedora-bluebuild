@@ -7,7 +7,7 @@ modules:
       enabled:
         # - getty@tty1.service
         # - greetd.service
-        - nix-daemon
+        # - nix-daemon
         - podman.socket
     user:
       enabled:

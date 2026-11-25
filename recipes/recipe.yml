@@ -23,5 +23,5 @@ modules:
   - from-file: modules/dnf.yml
   - from-file: modules/brew.yml
   - from-file: modules/files.yml
-  # - from-file: modules/systemd.yml
+  - from-file: modules/systemd.yml
   - from-file: modules/signing.yml
