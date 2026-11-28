@@ -21,7 +21,8 @@ platforms:
 # you can include multiple instances of the same module
 modules:
   - from-file: modules/dnf.yml
-  - from-file: modules/brew.yml
+  - from-file: modules/flatpak.yml
+  - from-file: modules/nix.yml
   - from-file: modules/files.yml
   - from-file: modules/systemd.yml
   - from-file: modules/signing.yml
