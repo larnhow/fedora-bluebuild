@@ -18,17 +18,15 @@ modules:
     install:
       install-weak-deps: true
       packages:
-        # - cascadia-mono-nf-fonts
-        # - chezmoi
-        # - distrobox
-        # - fish
+        - cascadia-mono-nf-fonts
+        - chezmoi
+        - distrobox
+        - fish
         - libavcodec-freeworld
-        # - keepassxc
+        - keepassxc
         - steam-devices
-        # - nix
-        # - nix-daemon
         # - mise
-        # - niri
+        - niri
         # - xwayland-satellite
         # - swayidle
         # - swaylock
@@ -64,7 +62,7 @@ modules:
         # Desktop-Sitzung und Berechtigungen
         # - dbus
         # - polkit
-        # - lxqt-policykit
+        - lxqt-policykit
         # - libnotify
         # - xdg-user-dirs
         # - xdg-utils

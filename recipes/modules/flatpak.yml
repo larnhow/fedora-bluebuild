@@ -1,3 +1,6 @@
+---
+# yaml-language-server: $schema=https://schema.blue-build.org/module-v1.json
+
 - type: default-flatpaks
   configurations:
     - scope: user
@@ -9,9 +12,20 @@
       repo:
         title: Flathub (system)
       install: # system flatpaks we want all users to have and not remove
-        - org.mozilla.firefox
+        - com.bitwarden.desktop
+        - com.collaboraoffice.Office
+        - com.discordapp.Discord
         - com.github.tchx84.Flatseal
+        - com.mikrotik.WinBox
+        - com.valvesoftware.Steam
+        - com.vysp3r.ProtonPlus
+        - com.xnview.XnConvert
+        - io.github.diegopvlk.Cine
+        - io.github.Faugus.faugus-launcher
         - io.github.flattool.Warehouse
         - io.missioncenter.MissionCenter
-        - com.github.rafostar.Clapper
-        - org.gnome.Loupe
+        - org.cockpit_project.CockpitClient
+        - org.fedoraproject.MediaWriter
+        - org.mozilla.firefox
+        - org.mozilla.thunderbird
+        - com.brave.Browser
